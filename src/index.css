@@ -29,3 +29,34 @@
 
 
 }
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+
+@theme {
+    --color-primary: #08252B;
+    --color-secondary: #041E23;
+    --color-beta: #24A0B5;
+    --color-alpha: #041E23;
+    --color-img: #0E464F;
+    --color-photo: #02191d;
+    --color-ticket: #133D44;
+    --color-fest: #08343C;
+
+}
+
+@layer utilities {
+    html,
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        max-width: 100%;
+    
+    }
+
+    .font-cinzel {
+        font-family: 'Cinzel', serif;
+    }
+
+
+}
