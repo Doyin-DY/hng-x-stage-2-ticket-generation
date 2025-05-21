@@ -103,7 +103,7 @@ export default function Ticket({ data, onReset }) {
                     </article>
                 </section>
             </div>
-            <div className='place-self-center m-3 gap-20 flex  '>
+            <div className=' justify-center m-4 gap-16 flex  '>
                 <button
                     className="bg-beta text-white text-[10px] w-[6rem] p-2 rounded-md hover:bg-beta/20"
                     onClick={handleDownload}
